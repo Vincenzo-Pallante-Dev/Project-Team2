@@ -5,4 +5,3 @@ let joele = {'name' : 'Joele', 'surname' : 'Esposito', 'age' : '21', 'city' : 'M
 students.push(joele);
 
 
-console.log(students);

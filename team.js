@@ -42,3 +42,35 @@ function hasPet(students){
         } 
     })
 }
+
+// - Print who wrote ‘LOL’ or ‘League Of Legends’ as a favorite video game. (name).
+// - Stampa chi ha scritto "LOL" o "League Of Legends" come videogioco preferito. (nome).
+function videoGioco(students){
+    for(let i = 0; i< students.length; i++){
+        if(students[i].favoriteVideoGame == "LOL" || students[i].favoriteVideoGame == "League of Legend")
+        console.log(students[i].name);
+    }
+}
+videoGioco(students);
+
+
+
+
+// - Print if there are some members with the same name (name).
+// - Stampa se ci sono alcuni membri con lo stesso nome (nome).
+
+function name (x){
+    let c = "Ci sono nomi uguali";
+    let d = "Non ci sono nomi uguali"
+    for(let i = 0; i < x.length; i++){
+        let a = x[i].name
+        for(let j = i + 1; j < x.length; j++){
+            let b = x[j].name
+            if(a == b){
+                return c;
+            }
+        }
+    }
+    return d;
+}
+console.log(name(students));

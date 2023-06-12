@@ -5,6 +5,7 @@ let students = [
 ];
 
 
+
 function getMiddleAge(students){
     let ageCount = 0;
     students.forEach(element => { 
@@ -25,5 +26,3 @@ function hasPet(students){
         } 
     })
 }
-
-getMiddleAge(students)

@@ -14,7 +14,7 @@ function getMiddleAge(students){
         
     });
 
-    let midAge = ageCount;
+    let midAge = ageCount / students.length;
 
     console.log(midAge);
 }
@@ -26,3 +26,6 @@ function hasPet(students){
         } 
     })
 }
+
+
+getMiddleAge(students)

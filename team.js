@@ -1,7 +1,2 @@
-let students = [];
-
-let joele = {'name' : 'Joele', 'surname' : 'Esposito', 'age' : '21', 'city' : 'Massa', 'hobby' : 'Guitar playing', 'favoriteFood' : '', 'favoriteVideoGame' : 'Ocarina of time', 'favoriteFilm' : 'Taxi driver', 'favoriteBook' : '', 'petName' : '' }
-
-students.push(joele);
-
-
+let students = [{name:"Antonio", surname:"Iannibelli", age:"22", city:"Napoli", hoppy:"Playng videogames", favoriteFood:"Pizza", favoriteVideoGame:"Call of duty", favoriteFilm: "Interstellar", favoriteBook:"", petName:"Dalì"},
+                {name : 'Joele', surname : 'Esposito', age : '21', city : 'Massa', hobby : 'Guitar playing', favoriteFood : '', favoriteVideoGame : 'Ocarina of time', favoriteFilm : 'Taxi driver', favoriteBook : '', petName : '' } ];

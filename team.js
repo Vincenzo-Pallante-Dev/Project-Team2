@@ -26,6 +26,3 @@ function hasPet(students){
         } 
     })
 }
-
-
-getMiddleAge(students)
